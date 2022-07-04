@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>
+          quiz
+      </title>
+     
+      <link rel="stylesheet" href="./main.css">
+
+       <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+   
+    <script src="https://kit.fontawesome.com/0b00273d28.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+<link rel="stylesheet"href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      
+    <!--start quiz button-->
+    <div class="start-btn"><button>Start quiz</button></div>
+  
+    <!--info-box-->
+    <div class="info-box">
+      <div class="info-title">
+        <span>some rules of this quiz</span>
+      </div>
+      <div class="info-list">
+        <div class="info">1. You will have only <span> 15 sec </span> per each question</div>
+        <div class="info">2. once you select your answer , you can't reselect </div>
+        <div class="info">3. you will get points on the basis of your correct answer</div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Exit quiz</button>
+        <button class="restart"> Continue</button>
+      </div>
+    </div>
+
+
+
+ <!--quiz box-->
+<div class="quiz-box">
+  <header>
+    <div class="title">Awesome Quiz Application</div>
+     <div class="timer">
+      <div class="time-text">Time left</div>
+      <div class="timer-sec">15</div>
+     </div>
+  </header>
+  <section>
+    <div class="que-text">
+     <!-- <span>What Does HTML stand for ?</span>-->
+    </div>
+    <div class="option-list">
+    
+
+        <!--<div class="option">
+        <span>Hyper Text Prepocessor</span>
+        <div class="icon tick"><i class="fas fa-check"></i></div>
+      </div>
+
+      <div class="option">
+        <span>Hyper Text Markup Language</span>
+        <div class="icon cross"><i class="fas fa-times"></i></div>
+      </div>
+
+      <div class="option">
+        <span>Hyper Text Multiple Language</span>
+      </div>
+
+      <div class="option">
+        <span>Hyper Text Multi Language</span>
+        <div class="icon"><i class="fas fa-check"></i></div>
+      </div>-->
+
+    </div>
+
+  </section>
+
+  <!-- Quiz Box Footer-->
+
+  <footer>
+    <div class="total-que">
+      <span><p>2</p> of <p>5</p> questions</span>
+    </div>
+
+    <button class="next-btn">Next que</button>
+  </footer>
+
+</div>
+        
+
+<!-- Result Box-->
+      <div class="result-box">
+        <div class="icon">
+          <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete-text">You've completed the quiz !</div>
+        <div class="score-text">
+          <span>and sorry ,You got only <p>2</p> out of <p>5</p>
+          </span>
+        </div>
+
+        <div class="buttons">
+          <button class="restart">Replay Quiz</button>
+          <button class="quit">Quit Quiz</button>
+
+        </div>
+      </div>
+
+        <!--footer-->
+ <script src="script.js"></script>
+ <script src="questions.js"></script>
+
+   
+      </body>
+</html>
